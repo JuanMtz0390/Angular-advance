@@ -6,24 +6,26 @@ import { APP_ROUTES } from './app.routes';
 
 // MODULOS
 import { PagesModule } from './pages/pages.module';
+import { AuthRoutingModule } from './auth/auth.route';
 
 // COMPONENTES
 import { AppComponent } from './app.component';
-import { LoginComponent } from './auth/login.component';
-import { RegisterComponent } from './auth/register.component';
+
+//path: '/dashboard' PagesModule
+//path: '/auth' AuthRoutinnM
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    RegisterComponent
+    
   ],
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    AuthRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
