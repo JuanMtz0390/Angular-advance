@@ -11,6 +11,7 @@ import { AuthRoutingModule } from './auth/auth.route';
 // COMPONENTES
 import { AppComponent } from './app.component';
 
+
 //path: '/dashboard' PagesModule
 //path: '/auth' AuthRoutinnM
 
@@ -18,7 +19,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
     
   ],
   imports: [

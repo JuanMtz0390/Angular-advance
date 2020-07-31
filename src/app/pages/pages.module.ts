@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'
 
-// RUTAS
+
+// MODULOS RUTAS
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTE } from './pages.routes';
+import { ComponentsModule } from '../components/components.module'
+
+
 
 // COMPONENTES
 import { PagesComponent } from './pages.component';
@@ -28,7 +32,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
    imports: [
        FormsModule,
        SharedModule,
-       PAGES_ROUTE
+       PAGES_ROUTE,
+       ComponentsModule
    ]
 })
 
