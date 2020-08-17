@@ -5883,3 +5883,9 @@ File: scss
     text-align: center;
     margin-top: 10px;
     overflow: hidden; } }
+
+
+    /*Account- settings*/
+    #themecolors .selector {
+      cursor: pointer;
+    }
